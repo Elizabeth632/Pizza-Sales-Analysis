@@ -4,6 +4,13 @@
 -- get the whole data
 select * from pizza_sales; 
 
+-- To change the order date from a text data type to a date format
+Update Pizza_sales
+Set order_date = str_to_date(order_date, '%d-%m-%Y');
+
+Alter table  pizza_sales
+modify column order_date date ;
+
 -- To check for null values
 Select * from pizza_sales
 Where order_id is null
