@@ -9,4 +9,7 @@ By leveraging SQL, various queries are executed to explore different aspects of 
 
   This data-driven approach provides a foundation for optimizing sales strategies, inventory management, and customer satisfaction in the pizza industry.
 
+  ## Tools Used
+  * SQL
+
   ### [Pizza Analysis and Findings](https://github.com/Elizabeth632/Pizza-Sales-Analysis/blob/main/PIZZA%20SALES.sql)
